@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Check real-time air quality data for any city. View pollutant breakdowns including PM2.5, PM10, CO, NO2, O3, and SO2." />
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
+    <title>AQI Checker — AirInsight</title>
+    <link rel="stylesheet" href="/css/pollution.css" />
+    <link rel="stylesheet" href="/css/utility.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo-name">
+            <img src="/assets/logo.png" alt="AirInsight Logo" height="50" width="40" />
+            <span><b>AirInsight</b></span>
+          </div>
+          <div class="right-cnt">
+            <a href="/"><p>Home</p></a>
+            <a href="/about"><p>About</p></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Loading Spinner -->
+    <div class="loader-data" style="display: none;">
+      <button class="loader__btn" aria-live="polite">
+        <div class="loader"></div>
+        Fetching data…
+      </button>
+    </div>
+
+    <!-- Error Banner -->
+    <div id="error-banner" class="error-banner" style="display: none;" role="alert"></div>
+
+    <!-- Search Section -->
+    <div class="content">
+      <div class="location-title">
+        <p>Enter a City to Check Air Quality</p>
+      </div>
+      <div class="location-search">
+        <div class="search">
+          <input
+            id="input-city"
+            placeholder="e.g. Delhi, Mumbai, Patna"
+            type="text"
+            aria-label="Enter city name"
+            autocomplete="off"
+          />
+          <button id="btn-submit" type="submit">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results Section (pollutant cards injected by script.js) -->
+    <div class="section-cards">
+      <div class="cards lft-card">
+        <div class="lct-title">
+          <p class="main-title">Air Quality Index</p>
+          <p class="secondary-title">Real-time PM2.5, PM10 air pollution levels</p>
+        </div>
+        <div class="aqi">
+          <p id="aqi-data" class="bold">(AQI-US)</p>
+          <p id="result" class="bold"></p>
+        </div>
+        <div class="img">
+          <img id="airQuality-img" src="/assets/airQuality.png" alt="Air quality indicator" />
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

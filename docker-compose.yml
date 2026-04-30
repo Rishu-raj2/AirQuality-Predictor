@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  airinsight:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: airinsight-app
+    container_name: airinsight-container
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
