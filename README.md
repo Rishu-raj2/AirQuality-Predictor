@@ -13,7 +13,7 @@ AirInsight is a full-stack web application that gives you instant access to real
 - **📰 Environmental Articles** — Curated articles on forest, water, sewage, and land pollution
 - **📱 Responsive Design** — Works seamlessly across desktop and mobile devices
 
----
+----------
 
 ## 🛠️ Tech Stack
 
@@ -34,7 +34,7 @@ AirInsight is a full-stack web application that gives you instant access to real
 
 - [Node.js](https://nodejs.org/) v18 or higher
 - A [Google Gemini API key](https://aistudio.google.com/app/apikey) (free)
-- A [RapidAPI key](https://rapidapi.com/apininjas/api/air-quality-by-api-ninjas) for Air Quality by API Ninjas (free tier available)
+- A [RapidAPI key](https://rapidapi.com/apininjas/api/air-quality-by-api-ninjas) for Air Quality by API Ninjas (free tier available).
 
 ### 1. Clone the Repository
 
