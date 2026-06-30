@@ -1,6 +1,6 @@
 # 🌬️ AirInsight — Real-time Air Quality Monitor
 
-AirInsight is a full-stack web application that gives you instant access to real-time air quality data for any city. Whether you're checking the daily AQI before a morning run or researching pollution trends, AirInsight provides clear, data-driven insights — powered by an AI assistant that answers your environmental questions in plain language.
+AirInsight is a full-stack web application that gives you instant access to real-time air quality data for any city. Whether you're checking the daily AQI before a morning run or researching pollution trends, AirInsight provides clear, data-driven insights — powered by an AI assistant that answers your environmental questions in plain language...
 
 ---
 
@@ -11,7 +11,7 @@ AirInsight is a full-stack web application that gives you instant access to real
 - **🤖 AI Assistant** — Powered by Google Gemini; ask any air quality or health question and get an intelligent response
 - **📊 AQI Reference Table** — Full breakdown of AQI ranges, health implications, and cautionary statements
 - **📰 Environmental Articles** — Curated articles on forest, water, sewage, and land pollution
-- **📱 Responsive Design** — Works seamlessly across desktop and mobile devices
+- **📱 Responsive Design** — Works seamlessly across desktop and mobile devices.
 
 ---
 
