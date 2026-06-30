@@ -10,10 +10,10 @@ AirInsight is a full-stack web application that gives you instant access to real
 - **🗺️ Interactive Live Map** — OpenStreetMap-based map with a real-time AQI overlay showing pollution hotspots
 - **🤖 AI Assistant** — Powered by Google Gemini; ask any air quality or health question and get an intelligent response
 - **📊 AQI Reference Table** — Full breakdown of AQI ranges, health implications, and cautionary statements
-- **📰 Environmental Articles** — Curated articles on forest, water, sewage, and land pollution
-- **📱 Responsive Design** — Works seamlessly across desktop and mobile devices
+- **📰 Environmental Articles** — Curated articles on forest, water, sewage, and land pollution.
+- **📱 Responsive Design** — Works seamlessly across desktop and mobile devices.
 
-----------
+---------------
 
 ## 🛠️ Tech Stack
 
